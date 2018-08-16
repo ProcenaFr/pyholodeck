@@ -19,7 +19,7 @@ Simplest possible salt module::
 
   import salt
 
-  def hello()
+  def hello():
       return "hello world"
 
 
@@ -31,7 +31,7 @@ Synchronise from the salt-master to the minion(s)
 
 ::
 
-   salt '*' saltutils.sync_all
+   salt '*' saltutil.sync_all
         ^ 
         selects which minions
 
